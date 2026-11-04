@@ -1,0 +1,32 @@
+/* Give the page a little space below the heading. */
+body {
+  padding-bottom: 30px;
+}
+
+/* Make the required section tall enough to require scrolling. */
+section {
+  min-height: 1000px;
+  padding: 15px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+}
+
+/* Style the mobile dropdown so it is distinct from the page content. */
+#mobile-menu {
+  background-color: #e7e7e7;
+}
+
+#mobile-menu a {
+  color: #333;
+  text-align: center;
+}
+
+/* Keep the dropdown links easy to tap on a phone. */
+#mobile-menu li {
+  border-top: 1px solid #ccc;
+}
+
+/* Add a little breathing room around the page heading. */
+h1 {
+  margin: 25px 0;
+}
